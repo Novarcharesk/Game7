@@ -1428,3 +1428,55 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.12-07.10.12:162][141]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
 [2023.11.12-07.10.12:163][141]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
 [2023.11.12-07.11.21:931][351]LogDerivedDataCache: C:/Users/rowan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.103 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 316 files in 577 folders with total size 11 MiB.
+[2023.11.12-07.17.45:256][560]LogSlate: Window 'Content Browser' being destroyed
+[2023.11.12-07.17.45:263][560]LogViewport: Scene viewport resized to 1005x292, mode Windowed.
+[2023.11.12-07.17.47:644][603]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.11.12-07.17.47:785][604]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.12-07.18.50:425][292]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/rowan/Desktop/GDS212 Projects/Game7/Game7/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2023.11.12-07.18.50:427][292]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/rowan/Desktop/GDS212 Projects/Game7/Game7/Content/Developers/ORION/Collections/' because it could not be accessed. Aborting watch request...
+[2023.11.12-07.18.51:081][303]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/rowan/Desktop/GDS212 Projects/Game7/Game7/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2023.11.12-07.19.01:298][474]LogTexture: Display: Building textures: /Game/Fantastic_Village_Pack/textures/T_wood_06_BC.T_wood_06_BC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.11.12-07.19.01:306][474]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fantastic_Village_Pack/meshes/props/furniture/SM_PROP_stool_02.SM_PROP_stool_02
+[2023.11.12-07.19.01:307][474]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fantastic_Village_Pack/meshes/props/furniture/SM_PROP_stool_02.SM_PROP_stool_02
+[2023.11.12-07.19.01:318][474]LogActorFactory: Actor Factory spawned StaticMesh /Game/Fantastic_Village_Pack/meshes/props/furniture/SM_PROP_stool_02.SM_PROP_stool_02 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_2
+[2023.11.12-07.19.01:332][474]LogStaticMesh: Display: Building static mesh SM_PROP_stool_02...
+[2023.11.12-07.19.01:340][474]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Fantastic_Village_Pack/meshes/props/furniture/SM_PROP_stool_02) ...
+[2023.11.12-07.19.01:372][474]LogStaticMesh: Built static mesh [0.05s] /Game/Fantastic_Village_Pack/meshes/props/furniture/SM_PROP_stool_02.SM_PROP_stool_02
+[2023.11.12-07.19.01:430][474]LogTexture: Display: Building textures: /Game/Fantastic_Village_Pack/textures/T_ENV_TERRAIN_gravel_N.T_ENV_TERRAIN_gravel_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 291.562488 MB), EncodeSpeed: Fast
+[2023.11.12-07.19.01:453][474]LogTexture: Display: Building textures: /Game/Fantastic_Village_Pack/textures/T_ENV_TERRAIN_gravel_BC.T_ENV_TERRAIN_gravel_BC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.11.12-07.19.02:597][488]LogTexture: Display: Building textures: /Game/Fantastic_Village_Pack/textures/T_wood_06_N.T_wood_06_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 307.562488 MB), EncodeSpeed: Fast
+[2023.11.12-07.19.03:315][498]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fantastic_Village_Pack/meshes/props/furniture/SM_PROP_stool_02.SM_PROP_stool_02
+[2023.11.12-07.19.03:315][498]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Fantastic_Village_Pack/meshes/props/furniture/SM_PROP_stool_02.SM_PROP_stool_02
+[2023.11.12-07.19.03:353][498]LogActorFactory: Actor Factory spawned StaticMesh /Game/Fantastic_Village_Pack/meshes/props/furniture/SM_PROP_stool_02.SM_PROP_stool_02 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04EA56343135BFBB01_1419595247
+[2023.11.12-07.19.03:497][498]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.12-07.19.05:305][523]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.11.12-07.19.06:116][533]LogShaderCompilers: Display: ================================================
+[2023.11.12-07.19.06:116][533]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.12-07.19.06:116][533]LogShaderCompilers: Display: Total job queries 7, among them cache hits 0 (0.00%)
+[2023.11.12-07.19.06:116][533]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2023.11.12-07.19.06:116][533]LogShaderCompilers: Display: RAM used: 1.88 KiB of 409.60 MiB budget. Usage: 0.00%
+[2023.11.12-07.19.06:116][533]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.12-07.19.06:116][533]LogShaderCompilers: Display: Shaders Compiled: 1
+[2023.11.12-07.19.06:116][533]LogShaderCompilers: Display: Jobs assigned 5, completed 1 (20.00%)
+[2023.11.12-07.19.06:116][533]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.11.12-07.19.06:116][533]LogShaderCompilers: Display: Time job spent in pending queue: average 0.90 s, longest 4.40 s
+[2023.11.12-07.19.06:117][533]LogShaderCompilers: Display: Job execution time: average 4.38 s, max 4.38 s
+[2023.11.12-07.19.06:117][533]LogShaderCompilers: Display: Job life time (pending + execution): average 4.40 s, max 4.40
+[2023.11.12-07.19.06:117][533]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.40 s
+[2023.11.12-07.19.06:117][533]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.12-07.19.06:118][533]LogShaderCompilers: Display: Average processing rate: 0.23 jobs/sec
+[2023.11.12-07.19.06:118][533]LogShaderCompilers: Display: Total thread time: 1.78 s
+[2023.11.12-07.19.06:118][533]LogShaderCompilers: Display: Total thread preprocess time: 0.103 s
+[2023.11.12-07.19.06:118][533]LogShaderCompilers: Display: Percentage time preprocessing: 5.81%
+[2023.11.12-07.19.06:118][533]LogShaderCompilers: Display: Effective parallelization: 0.40 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.11.12-07.19.06:118][533]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.11.12-07.19.06:118][533]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 1.78 sec, max 1.78 sec, min 1.78 sec)
+[2023.11.12-07.19.06:118][533]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.11.12-07.19.06:118][533]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 1.78 sec, max 1.78 sec, min 1.78 sec)
+[2023.11.12-07.19.06:118][533]LogShaderCompilers: Display: ================================================
+[2023.11.12-07.19.16:051][746]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.12-07.19.16:174][746]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/6E/JTI7HZ1CR957345EULSN8G
+[2023.11.12-07.19.16:174][746]LogSavePackage: Moving '../../../../../../Users/rowan/Desktop/GDS212 Projects/Game7/Game7/Saved/JTI7HZ1CR957345EULSN8GC4A02ADA40223CA0DC5920A847EA936D.tmp' to '../../../../../../Users/rowan/Desktop/GDS212 Projects/Game7/Game7/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/6E/JTI7HZ1CR957345EULSN8G.uasset'
+[2023.11.12-07.19.16:207][746]LogFileHelpers: InternalPromptForCheckoutAndSave took 155 ms (total: 1.39 sec)
+[2023.11.12-07.19.16:217][746]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_04EA56343135BFBB01_1419595247
+[2023.11.12-07.19.16:218][746]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_04EA56343135BFBB01_1419595247
