@@ -3552,3 +3552,473 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.13-10.17.47:762][384]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2023.11.13-10.17.47:767][385]LogPlayLevel: Display: Destroying online subsystem :Context_20
 [2023.11.13-10.17.47:780][385]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.13-10.28.48:598][508]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.28.48:598][508]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.13-10.28.48:598][508]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.28.48:702][509]LogShaderCompilers: Display: ================================================
+[2023.11.13-10.28.48:702][509]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.13-10.28.48:702][509]LogShaderCompilers: Display: Total job queries 233, among them cache hits 130 (55.79%)
+[2023.11.13-10.28.48:702][509]LogShaderCompilers: Display: Tracking 103 distinct input hashes that result in 65 distinct outputs (63.11%)
+[2023.11.13-10.28.48:702][509]LogShaderCompilers: Display: RAM used: 228.80 KiB of 409.60 MiB budget. Usage: 0.05%
+[2023.11.13-10.28.48:702][509]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.13-10.28.48:702][509]LogShaderCompilers: Display: Shaders Compiled: 103
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display: Jobs assigned 103, completed 103 (100.00%)
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display: Average time worker was idle: 3921.38 s
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display: Time job spent in pending queue: average 1.62 s, longest 7.06 s
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display: Job execution time: average 2.09 s, max 6.61 s
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display: Job life time (pending + execution): average 3.70 s, max 8.50
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 72.80 s
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display: Jobs were issued in 103 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display: Average processing rate: 1.41 jobs/sec
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display: Total thread time: 143.175 s
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display: Total thread preprocess time: 6.896 s
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display: Percentage time preprocessing: 4.82%
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display: Effective parallelization: 1.97 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    1 times, average 3.65 sec, max 3.65 sec, min 3.65 sec)
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   18 times, average 2.03 sec, max 4.37 sec, min 1.02 sec)
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   18 times, average 1.91 sec, max 4.06 sec, min 0.75 sec)
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    8 times, average 1.87 sec, max 2.22 sec, min 0.69 sec)
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    3 times, average 1.67 sec, max 2.08 sec, min 1.37 sec)
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.54% of total time (compiled   18 times, average 2.03 sec, max 4.37 sec, min 1.02 sec)
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.99% of total time (compiled   18 times, average 1.91 sec, max 4.06 sec, min 0.75 sec)
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.43% of total time (compiled    8 times, average 1.87 sec, max 2.22 sec, min 0.69 sec)
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.83% of total time (compiled    8 times, average 1.22 sec, max 1.78 sec, min 0.34 sec)
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display:                                                  FHitProxyVS - 3.51% of total time (compiled    3 times, average 1.67 sec, max 2.08 sec, min 1.37 sec)
+[2023.11.13-10.28.48:703][509]LogShaderCompilers: Display: ================================================
+[2023.11.13-10.32.44:577][658]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.11.13-10.32.44:589][658]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.11.13-10.32.44:608][659]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2023.11.13-10.32.49:513][753]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Splatter
+[2023.11.13-10.32.49:527][753]LogContentBrowser: End creating deferred item NewMaterial
+[2023.11.13-10.32.51:115][778]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FirstPerson/Blueprints/M_Splatter.M_Splatter
+[2023.11.13-10.32.51:235][778]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.13-10.32.51:235][778]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.13-10.32.51:674][778]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.32.51:674][778]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.13-10.32.51:674][778]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.32.51:689][778]LogViewport: Scene viewport resized to 198x264, mode Windowed.
+[2023.11.13-10.32.53:561][801]LogShaderCompilers: Display: ================================================
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Total job queries 239, among them cache hits 132 (55.23%)
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Tracking 104 distinct input hashes that result in 65 distinct outputs (62.50%)
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: RAM used: 229.59 KiB of 409.60 MiB budget. Usage: 0.05%
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Shaders Compiled: 104
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Jobs assigned 107, completed 104 (97.20%)
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Average time worker was idle: 3804.91 s
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Time job spent in pending queue: average 1.56 s, longest 7.06 s
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Job execution time: average 2.08 s, max 6.61 s
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Job life time (pending + execution): average 3.69 s, max 8.50
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 74.60 s
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Jobs were issued in 107 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Average processing rate: 1.39 jobs/sec
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Total thread time: 144.522 s
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Total thread preprocess time: 6.961 s
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Percentage time preprocessing: 4.82%
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Effective parallelization: 1.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    1 times, average 3.65 sec, max 3.65 sec, min 3.65 sec)
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   18 times, average 2.03 sec, max 4.37 sec, min 1.02 sec)
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   18 times, average 1.91 sec, max 4.06 sec, min 0.75 sec)
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    8 times, average 1.87 sec, max 2.22 sec, min 0.69 sec)
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    3 times, average 1.67 sec, max 2.08 sec, min 1.37 sec)
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.31% of total time (compiled   18 times, average 2.03 sec, max 4.37 sec, min 1.02 sec)
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.77% of total time (compiled   18 times, average 1.91 sec, max 4.06 sec, min 0.75 sec)
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.33% of total time (compiled    8 times, average 1.87 sec, max 2.22 sec, min 0.69 sec)
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.70% of total time (compiled    9 times, average 1.24 sec, max 1.78 sec, min 0.34 sec)
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display:                                                  FHitProxyVS - 3.48% of total time (compiled    3 times, average 1.67 sec, max 2.08 sec, min 1.37 sec)
+[2023.11.13-10.32.53:562][801]LogShaderCompilers: Display: ================================================
+[2023.11.13-10.32.54:538][813]MaterialEditorStats: Base pass vertex shader: 225 instructions
+[2023.11.13-10.32.54:538][813]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.32.54:538][813]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.13-10.32.54:538][813]MaterialEditorStats: Shader Count: 3
+[2023.11.13-10.32.54:751][816]MaterialEditorStats: Base pass shader: 174 instructions
+[2023.11.13-10.32.54:751][816]MaterialEditorStats: Base pass vertex shader: 225 instructions
+[2023.11.13-10.32.54:751][816]MaterialEditorStats: Texture samplers: 4/16
+[2023.11.13-10.32.54:751][816]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.13-10.32.54:751][816]MaterialEditorStats: Shader Count: 4
+[2023.11.13-10.33.20:837][181]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2023.11.13-10.33.20:842][181]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.057
+[2023.11.13-10.33.20:844][181]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/M_Splatter] ([1] browsable assets)...
+[2023.11.13-10.33.20:880][181]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPerson/Blueprints/M_Splatter.M_Splatter]
+[2023.11.13-10.33.20:880][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/M_Splatter]
+[2023.11.13-10.33.20:891][181]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/M_Splatter_Auto6
+[2023.11.13-10.33.20:891][181]LogSavePackage: Moving '../../../../../../Users/rowan/Desktop/GDS212 Projects/Game7/Game7/Saved/M_Splatter_Auto6D037E2AF430D3898232767B1A6E86062.tmp' to '../../../../../../Users/rowan/Desktop/GDS212 Projects/Game7/Game7/Saved/Autosaves/Game/FirstPerson/Blueprints/M_Splatter_Auto6.uasset'
+[2023.11.13-10.33.20:893][181]LogFileHelpers: Auto-saving content packages took 0.051
+[2023.11.13-10.40.42:874][935]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.40.42:874][935]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.13-10.40.42:874][935]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: ================================================
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Total job queries 247, among them cache hits 140 (56.68%)
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Tracking 107 distinct input hashes that result in 65 distinct outputs (60.75%)
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: RAM used: 236.48 KiB of 409.60 MiB budget. Usage: 0.06%
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Shaders Compiled: 107
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Jobs assigned 107, completed 107 (100.00%)
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Average time worker was idle: 3804.91 s
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Time job spent in pending queue: average 1.56 s, longest 7.06 s
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Job execution time: average 2.10 s, max 6.61 s
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Job life time (pending + execution): average 3.66 s, max 8.50
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 75.74 s
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Jobs were issued in 107 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Average processing rate: 1.41 jobs/sec
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Total thread time: 151.07 s
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Total thread preprocess time: 7.199 s
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Percentage time preprocessing: 4.77%
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Effective parallelization: 1.99 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    1 times, average 3.65 sec, max 3.65 sec, min 3.65 sec)
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   19 times, average 2.06 sec, max 4.37 sec, min 1.02 sec)
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   19 times, average 1.93 sec, max 4.06 sec, min 0.75 sec)
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    9 times, average 1.86 sec, max 2.22 sec, min 0.69 sec)
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    3 times, average 1.67 sec, max 2.08 sec, min 1.37 sec)
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.86% of total time (compiled   19 times, average 2.06 sec, max 4.37 sec, min 1.02 sec)
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.26% of total time (compiled   19 times, average 1.93 sec, max 4.06 sec, min 0.75 sec)
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.05% of total time (compiled    9 times, average 1.86 sec, max 2.22 sec, min 0.69 sec)
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.37% of total time (compiled    9 times, average 1.24 sec, max 1.78 sec, min 0.34 sec)
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display:                                                  FHitProxyVS - 3.33% of total time (compiled    3 times, average 1.67 sec, max 2.08 sec, min 1.37 sec)
+[2023.11.13-10.40.42:936][936]LogShaderCompilers: Display: ================================================
+[2023.11.13-10.40.42:971][937]MaterialEditorStats: Base pass shader: 174 instructions
+[2023.11.13-10.40.42:971][937]MaterialEditorStats: Base pass vertex shader: 225 instructions
+[2023.11.13-10.40.42:971][937]MaterialEditorStats: Texture samplers: 4/16
+[2023.11.13-10.40.42:971][937]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.13-10.40.42:971][937]MaterialEditorStats: Shader Count: 4
+[2023.11.13-10.40.54:446][ 18]LogViewport: Scene viewport resized to 196x264, mode Windowed.
+[2023.11.13-10.40.54:480][ 18]LogViewport: Scene viewport resized to 193x264, mode Windowed.
+[2023.11.13-10.40.54:530][ 18]LogViewport: Scene viewport resized to 191x264, mode Windowed.
+[2023.11.13-10.40.54:580][ 18]LogViewport: Scene viewport resized to 182x264, mode Windowed.
+[2023.11.13-10.40.54:630][ 18]LogViewport: Scene viewport resized to 173x264, mode Windowed.
+[2023.11.13-10.40.54:680][ 18]LogViewport: Scene viewport resized to 169x264, mode Windowed.
+[2023.11.13-10.40.54:730][ 18]LogViewport: Scene viewport resized to 163x264, mode Windowed.
+[2023.11.13-10.40.54:779][ 18]LogViewport: Scene viewport resized to 158x264, mode Windowed.
+[2023.11.13-10.40.54:829][ 18]LogViewport: Scene viewport resized to 156x264, mode Windowed.
+[2023.11.13-10.40.55:045][ 18]LogViewport: Scene viewport resized to 155x264, mode Windowed.
+[2023.11.13-10.40.55:096][ 18]LogViewport: Scene viewport resized to 154x264, mode Windowed.
+[2023.11.13-10.40.55:146][ 18]LogViewport: Scene viewport resized to 150x264, mode Windowed.
+[2023.11.13-10.40.55:196][ 18]LogViewport: Scene viewport resized to 149x264, mode Windowed.
+[2023.11.13-10.40.55:229][ 18]LogViewport: Scene viewport resized to 147x264, mode Windowed.
+[2023.11.13-10.40.55:279][ 18]LogViewport: Scene viewport resized to 146x264, mode Windowed.
+[2023.11.13-10.40.55:328][ 18]LogViewport: Scene viewport resized to 144x264, mode Windowed.
+[2023.11.13-10.40.55:379][ 18]LogViewport: Scene viewport resized to 142x264, mode Windowed.
+[2023.11.13-10.40.55:528][ 18]LogViewport: Scene viewport resized to 141x264, mode Windowed.
+[2023.11.13-10.40.55:845][ 18]LogViewport: Scene viewport resized to 140x264, mode Windowed.
+[2023.11.13-10.40.55:895][ 18]LogViewport: Scene viewport resized to 138x264, mode Windowed.
+[2023.11.13-10.40.55:945][ 18]LogViewport: Scene viewport resized to 137x264, mode Windowed.
+[2023.11.13-10.40.56:208][ 19]LogAutomationController: Ignoring very large delta of 2.00 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.13-10.40.59:488][ 68]LogViewport: Scene viewport resized to 1104x381, mode Windowed.
+[2023.11.13-10.40.59:671][ 69]LogViewport: Scene viewport resized to 1238x381, mode Windowed.
+[2023.11.13-10.41.00:562][ 80]LogViewport: Scene viewport resized to 1149x381, mode Windowed.
+[2023.11.13-10.41.00:778][ 82]LogViewport: Scene viewport resized to 1137x381, mode Windowed.
+[2023.11.13-10.41.04:917][135]LogViewport: Scene viewport resized to 138x264, mode Windowed.
+[2023.11.13-10.41.04:967][135]LogViewport: Scene viewport resized to 141x264, mode Windowed.
+[2023.11.13-10.41.05:019][135]LogViewport: Scene viewport resized to 145x264, mode Windowed.
+[2023.11.13-10.41.05:067][135]LogViewport: Scene viewport resized to 148x264, mode Windowed.
+[2023.11.13-10.41.05:118][135]LogViewport: Scene viewport resized to 149x264, mode Windowed.
+[2023.11.13-10.41.05:169][135]LogViewport: Scene viewport resized to 154x264, mode Windowed.
+[2023.11.13-10.41.05:218][135]LogViewport: Scene viewport resized to 160x264, mode Windowed.
+[2023.11.13-10.41.05:268][135]LogViewport: Scene viewport resized to 166x264, mode Windowed.
+[2023.11.13-10.41.05:301][135]LogViewport: Scene viewport resized to 168x264, mode Windowed.
+[2023.11.13-10.41.35:819][457]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.41.35:819][457]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.13-10.41.35:819][457]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.41.36:015][460]MaterialEditorStats: Base pass shader: 174 instructions
+[2023.11.13-10.41.36:017][460]MaterialEditorStats: Base pass vertex shader: 225 instructions
+[2023.11.13-10.41.36:017][460]MaterialEditorStats: Texture samplers: 4/16
+[2023.11.13-10.41.36:017][460]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.13-10.41.36:017][460]MaterialEditorStats: Shader Count: 4
+[2023.11.13-10.41.50:428][569]LogInterchangeEngine: [Pending] Importing
+[2023.11.13-10.41.50:428][569]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/rowan/PicturesGrey Splatter.png]
+[2023.11.13-10.41.50:468][570]LogAutomationController: Ignoring very large delta of 5.99 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.13-10.41.50:500][570]LogInterchangeEngine: [Pending] Importing
+[2023.11.13-10.41.50:501][570]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.11.13-10.41.50:631][571]LogInterchangeEngine: [Success] Import Done
+[2023.11.13-10.41.50:631][571]LogTexture: Display: Building textures: /Game/FirstPerson/Blueprints/Grey_Splatter.Grey_Splatter (TFO_AutoDXT, 2000x2000 x1x1x1) (Required Memory Estimate: 274.720687 MB), EncodeSpeed: Fast
+[2023.11.13-10.41.50:718][572]LogInterchangeEngine: [Success] Import Done
+[2023.11.13-10.41.55:416][602]LogAutomationController: Ignoring very large delta of 2.42 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.13-10.41.57:563][630]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.41.57:564][630]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.13-10.41.57:564][630]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.42.00:767][654]MaterialEditorStats: Base pass shader: 174 instructions
+[2023.11.13-10.42.00:767][654]MaterialEditorStats: Base pass vertex shader: 225 instructions
+[2023.11.13-10.42.00:767][654]MaterialEditorStats: Texture samplers: 4/16
+[2023.11.13-10.42.00:767][654]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.13-10.42.00:767][654]MaterialEditorStats: Shader Count: 4
+[2023.11.13-10.42.22:432][833]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.42.22:432][833]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.42.22:432][833]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.42.22:432][833]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.42.24:023][852]MaterialEditorStats: Texture samplers: 1/16
+[2023.11.13-10.42.24:024][852]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.42.24:024][852]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.42.24:024][852]MaterialEditorStats: Shader Count: 1
+[2023.11.13-10.42.25:149][865]MaterialEditorStats: Base pass vertex shader: 229 instructions
+[2023.11.13-10.42.25:149][865]MaterialEditorStats: Texture samplers: 1/16
+[2023.11.13-10.42.25:149][865]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.42.25:149][865]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.42.25:149][865]MaterialEditorStats: Shader Count: 3
+[2023.11.13-10.42.25:299][867]MaterialEditorStats: Base pass shader: 176 instructions
+[2023.11.13-10.42.25:299][867]MaterialEditorStats: Base pass vertex shader: 229 instructions
+[2023.11.13-10.42.25:299][867]MaterialEditorStats: Texture samplers: 5/16
+[2023.11.13-10.42.25:299][867]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.42.25:299][867]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.42.25:299][867]MaterialEditorStats: Shader Count: 4
+[2023.11.13-10.43.29:553][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.11.13-10.43.29:556][419]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.038
+[2023.11.13-10.43.29:557][419]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/Grey_Splatter] ([1] browsable assets)...
+[2023.11.13-10.43.29:559][419]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FirstPerson/Blueprints/Grey_Splatter.Grey_Splatter]
+[2023.11.13-10.43.29:559][419]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/Grey_Splatter]
+[2023.11.13-10.43.29:581][419]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/Grey_Splatter_Auto7
+[2023.11.13-10.43.29:581][419]LogSavePackage: Moving '../../../../../../Users/rowan/Desktop/GDS212 Projects/Game7/Game7/Saved/Grey_Splatter_Auto751471C5842542BA565CC679973622AAF.tmp' to '../../../../../../Users/rowan/Desktop/GDS212 Projects/Game7/Game7/Saved/Autosaves/Game/FirstPerson/Blueprints/Grey_Splatter_Auto7.uasset'
+[2023.11.13-10.43.29:583][419]LogFileHelpers: Auto-saving content packages took 0.027
+[2023.11.13-10.47.27:558][151]LogViewport: Scene viewport resized to 168x264, mode Windowed.
+[2023.11.13-10.47.36:462][240]LogAutomationController: Ignoring very large delta of 2.47 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: ================================================
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Total job queries 277, among them cache hits 158 (57.04%)
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Tracking 117 distinct input hashes that result in 69 distinct outputs (58.97%)
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: RAM used: 255.77 KiB of 409.60 MiB budget. Usage: 0.06%
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Shaders Compiled: 117
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Jobs assigned 119, completed 117 (98.32%)
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Average time worker was idle: 3432.99 s
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Time job spent in pending queue: average 1.44 s, longest 7.06 s
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Job execution time: average 2.08 s, max 6.61 s
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Job life time (pending + execution): average 3.54 s, max 8.50
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 81.48 s
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Jobs were issued in 119 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Average processing rate: 1.44 jobs/sec
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Total thread time: 166.353 s
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Total thread preprocess time: 7.865 s
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Percentage time preprocessing: 4.73%
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Effective parallelization: 2.04 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    1 times, average 3.65 sec, max 3.65 sec, min 3.65 sec)
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   22 times, average 2.00 sec, max 4.37 sec, min 0.64 sec)
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   22 times, average 1.90 sec, max 4.06 sec, min 0.75 sec)
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   11 times, average 1.81 sec, max 2.22 sec, min 0.69 sec)
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    3 times, average 1.67 sec, max 2.08 sec, min 1.37 sec)
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.13-10.47.38:130][262]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 26.44% of total time (compiled   22 times, average 2.00 sec, max 4.37 sec, min 0.64 sec)
+[2023.11.13-10.47.38:131][262]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 25.13% of total time (compiled   22 times, average 1.90 sec, max 4.06 sec, min 0.75 sec)
+[2023.11.13-10.47.38:131][262]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.00% of total time (compiled   11 times, average 1.81 sec, max 2.22 sec, min 0.69 sec)
+[2023.11.13-10.47.38:131][262]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.85% of total time (compiled   11 times, average 1.19 sec, max 1.78 sec, min 0.34 sec)
+[2023.11.13-10.47.38:131][262]LogShaderCompilers: Display:                                                  FHitProxyVS - 3.02% of total time (compiled    3 times, average 1.67 sec, max 2.08 sec, min 1.37 sec)
+[2023.11.13-10.47.38:131][262]LogShaderCompilers: Display: ================================================
+[2023.11.13-10.49.26:669][ 36]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.49.26:670][ 36]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.49.26:670][ 36]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.49.26:670][ 36]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.49.27:756][ 51]MaterialEditorStats: Texture samplers: 1/16
+[2023.11.13-10.49.27:756][ 51]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.49.27:756][ 51]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.49.27:756][ 51]MaterialEditorStats: Shader Count: 1
+[2023.11.13-10.49.36:467][162]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.49.36:467][162]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.49.36:467][162]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.49.36:467][162]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.49.36:563][164]MaterialEditorStats: Texture samplers: 1/16
+[2023.11.13-10.49.36:564][164]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.49.36:564][164]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.49.36:564][164]MaterialEditorStats: Shader Count: 2
+[2023.11.13-10.49.38:405][186]LogEditorTransaction: Undo Material Editor: Delete
+[2023.11.13-10.49.38:506][186]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.49.38:506][186]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.49.38:506][186]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.49.38:506][186]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.49.38:506][186]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.49.38:506][186]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.49.38:506][186]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.49.38:506][186]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.49.38:539][186]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.13-10.49.38:660][188]MaterialEditorStats: Texture samplers: 1/16
+[2023.11.13-10.49.38:660][188]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.49.38:660][188]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.49.38:660][188]MaterialEditorStats: Shader Count: 2
+[2023.11.13-10.49.38:718][189]MaterialEditorStats: Base pass shader: 176 instructions
+[2023.11.13-10.49.38:718][189]MaterialEditorStats: Base pass vertex shader: 229 instructions
+[2023.11.13-10.49.38:719][189]MaterialEditorStats: Texture samplers: 5/16
+[2023.11.13-10.49.38:719][189]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.49.38:719][189]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.49.38:719][189]MaterialEditorStats: Shader Count: 4
+[2023.11.13-10.51.14:797][584]LogDerivedDataCache: C:/Users/rowan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.215 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 734 files in 1302 folders with total size 46 MiB.
+[2023.11.13-10.53.07:182][  4]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.53.07:182][  4]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.13-10.53.07:182][  4]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.53.08:165][ 18]LogShaderCompilers: Display: ================================================
+[2023.11.13-10.53.08:165][ 18]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Total job queries 309, among them cache hits 186 (60.19%)
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Tracking 122 distinct input hashes that result in 72 distinct outputs (59.02%)
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: RAM used: 261.34 KiB of 409.60 MiB budget. Usage: 0.06%
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Shaders Compiled: 122
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Jobs assigned 123, completed 122 (99.19%)
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Average time worker was idle: 3323.10 s
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Time job spent in pending queue: average 1.39 s, longest 7.06 s
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Job execution time: average 2.04 s, max 6.61 s
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Job life time (pending + execution): average 3.44 s, max 8.50
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 85.13 s
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Jobs were issued in 123 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Average processing rate: 1.43 jobs/sec
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Total thread time: 169.689 s
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Total thread preprocess time: 8.077 s
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Percentage time preprocessing: 4.76%
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Effective parallelization: 1.99 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    1 times, average 3.65 sec, max 3.65 sec, min 3.65 sec)
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   22 times, average 2.00 sec, max 4.37 sec, min 0.64 sec)
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   22 times, average 1.90 sec, max 4.06 sec, min 0.75 sec)
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   11 times, average 1.81 sec, max 2.22 sec, min 0.69 sec)
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    3 times, average 1.67 sec, max 2.08 sec, min 1.37 sec)
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.92% of total time (compiled   22 times, average 2.00 sec, max 4.37 sec, min 0.64 sec)
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.64% of total time (compiled   22 times, average 1.90 sec, max 4.06 sec, min 0.75 sec)
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.76% of total time (compiled   11 times, average 1.81 sec, max 2.22 sec, min 0.69 sec)
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.70% of total time (compiled   11 times, average 1.19 sec, max 1.78 sec, min 0.34 sec)
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display:                                                  FHitProxyVS - 2.96% of total time (compiled    3 times, average 1.67 sec, max 2.08 sec, min 1.37 sec)
+[2023.11.13-10.53.08:166][ 18]LogShaderCompilers: Display: ================================================
+[2023.11.13-10.53.19:569][162]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.53.19:569][162]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.53.19:569][162]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.53.19:569][162]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.53.19:635][164]MaterialEditorStats: Texture samplers: 1/16
+[2023.11.13-10.53.19:636][164]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.53.19:636][164]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.53.19:636][164]MaterialEditorStats: Shader Count: 2
+[2023.11.13-10.53.27:445][265]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.53.27:445][265]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.11.13-10.53.27:445][265]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.53.28:552][279]MaterialEditorStats: Texture samplers: 1/16
+[2023.11.13-10.53.28:552][279]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.11.13-10.53.28:552][279]MaterialEditorStats: Shader Count: 1
+[2023.11.13-10.53.36:970][386]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.53.36:970][386]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.11.13-10.53.36:970][386]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.53.37:065][389]MaterialEditorStats: Texture samplers: 1/16
+[2023.11.13-10.53.37:065][389]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.11.13-10.53.37:065][389]MaterialEditorStats: Shader Count: 2
+[2023.11.13-10.53.43:892][478]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.53.43:892][478]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.11.13-10.53.43:892][478]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.53.43:987][481]MaterialEditorStats: Texture samplers: 1/16
+[2023.11.13-10.53.43:987][481]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2023.11.13-10.53.43:987][481]MaterialEditorStats: Shader Count: 2
+[2023.11.13-10.53.48:559][537]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.53.48:559][537]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.53.48:559][537]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.53.48:559][537]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.53.48:611][539]MaterialEditorStats: Texture samplers: 1/16
+[2023.11.13-10.53.48:612][539]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.53.48:612][539]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.53.48:612][539]MaterialEditorStats: Shader Count: 2
+[2023.11.13-10.53.51:158][572]LogMaterialEditor: Applying material Decal_Pink
+[2023.11.13-10.53.51:436][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.11.13-10.53.51:526][572]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.11.13-10.53.51:533][572]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.13-10.53.51:533][572]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.53.51:533][572]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.53.51:533][572]MaterialEditorStats: Shader Count: 0
+[2023.11.13-10.53.52:841][590]LogMaterialEditor: Saving and Compiling material Decal_Pink
+[2023.11.13-10.53.52:844][590]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.13-10.53.55:075][590]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.11.13-10.53.59:745][590]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.004095s (4.671274s overbudget)
+[2023.11.13-10.53.59:799][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Decals/Decal_Pink" FILE="../../../../../../Users/rowan/Desktop/GDS212 Projects/Game7/Game7/Content/Decals/Decal_Pink.uasset" SILENT=true
+[2023.11.13-10.53.59:804][590]LogSavePackage: Moving output files for package: /Game/Decals/Decal_Pink
+[2023.11.13-10.53.59:805][590]LogSavePackage: Moving '../../../../../../Users/rowan/Desktop/GDS212 Projects/Game7/Game7/Saved/Decal_PinkBFBE916A4BFB4E07764205924A18AD45.tmp' to '../../../../../../Users/rowan/Desktop/GDS212 Projects/Game7/Game7/Content/Decals/Decal_Pink.uasset'
+[2023.11.13-10.53.59:810][590]LogFileHelpers: InternalPromptForCheckoutAndSave took 6.96 sec (total: 24.1 sec)
+[2023.11.13-10.53.59:832][590]AssetCheck: New page: Asset Save: Decal_Pink
+[2023.11.13-10.53.59:832][590]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Decals/Decal_Pink.Decal_Pink
+[2023.11.13-10.53.59:833][590]MaterialEditorStats: Base pass shader: 139 instructions
+[2023.11.13-10.53.59:833][590]MaterialEditorStats: Base pass vertex shader: 302 instructions
+[2023.11.13-10.53.59:833][590]MaterialEditorStats: Texture samplers: 3/16
+[2023.11.13-10.53.59:833][590]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.13-10.53.59:833][590]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.13-10.53.59:833][590]MaterialEditorStats: Shader Count: 25
+[2023.11.13-10.53.59:852][591]LogAutomationController: Ignoring very large delta of 7.06 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.13-10.54.03:804][614]LogSlate: Window 'Message' being destroyed
+[2023.11.13-10.54.03:810][614]Message dialog closed, result: No, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/FirstPerson/Blueprints/M_Splatter.M_Splatter
+(Selecting 'No' will cause all changes to be lost!)
+[2023.11.13-10.54.03:864][614]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-10.54.03:864][614]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-10.54.03:917][615]LogAutomationController: Ignoring very large delta of 2.43 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.13-10.54.05:511][639]LogViewport: Scene viewport resized to 518x506, mode Windowed.
+[2023.11.13-10.54.23:930][920]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.13-10.54.23:944][920]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.11.13-10.54.23:951][920]LogWorldPartition: Display: GenerateStreaming started...
+[2023.11.13-10.54.23:951][920]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.11.13-10.54.23:951][920]LogWorldPartition: Display: GetPartitionedActors took 38 us (total: 2 ms)
+[2023.11.13-10.54.23:951][920]LogWorldPartition: Display: GenerateStreaming took 631 us (total: 6 ms)
+[2023.11.13-10.54.23:955][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.13-10.54.23:955][920]PIE: New page: PIE session: FirstPersonMap (14 Nov 2023, 8:54:23 am)
+[2023.11.13-10.54.23:955][920]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.11.13-10.54.23:972][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016814s)
+[2023.11.13-10.54.23:972][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.016863s)
+[2023.11.13-10.54.23:973][920]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.13-10.54.23:974][920]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.13-10.54.23:974][920]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.11.13-10.54.23:975][920]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.11.13-10.54.23:975][920]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.11.13-10.54.23:975][920]LogWorldPartition: UWorldPartition::Initialize(Asset=FirstPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.11.13-10.54.23:977][920]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.11.13-10.54.23:977][920]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 351 ms)
+[2023.11.13-10.54.23:978][920]LogPlayLevel: PIE: World Init took: (0.005317s)
+[2023.11.13-10.54.24:032][920]LogUObjectHash: Compacting FUObjectHashTables data took   6.29ms
+[2023.11.13-10.54.24:037][920]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.11.13-10.54.24:037][920]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.13-10.54.24:037][920]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.13-10.54.24:037][920]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.13-10.54.24:037][920]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.13-10.54.24:037][920]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.13-10.54.24:037][920]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.13-10.54.24:037][920]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.13-10.54.24:037][920]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.13-10.54.24:038][920]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.13-10.54.24:038][920]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.13-10.54.24:038][920]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.13-10.54.24:049][920]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.13-10.54.24:079][920]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.11.13-10.54.24:080][920]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.13-10.54.24:080][920]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.13-10.54.24:080][920]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.13-10.54.24:081][920]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.11.13-10.54.24:081][920]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.11.13-10.54.24:083][920]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.11.13-10.54.24:083][920]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.11.13-10.54.24:088][920]LogInit: FAudioDevice initialized with ID 6.
+[2023.11.13-10.54.24:088][920]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2023.11.13-10.54.24:088][920]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.11.13-10.54.24:092][920]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.11.13-10.54.24:097][920]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.11.13-21.54.24
+[2023.11.13-10.54.24:097][920]LogWorld: Bringing up level for play took: 0.004734
+[2023.11.13-10.54.24:100][920]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.11.13-10.54.24:105][920]PIE: Server logged in
+[2023.11.13-10.54.24:106][920]PIE: Play in editor total start time 0.162 seconds.
+[2023.11.13-10.54.24:139][920]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.13-10.54.24:140][920]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.13-10.54.24:141][920]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.13-10.54.24:142][920]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.13-10.54.24:177][921]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.13-10.54.24:178][921]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.13-10.54.24:179][921]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.13-10.54.24:179][921]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.13-10.54.44:590][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.13-10.54.44:590][306]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.11.13-10.54.44:591][306]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.13-10.54.44:591][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-10.54.44:591][306]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.11.13-10.54.44:638][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.13-10.54.44:645][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.13-10.54.44:692][306]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.13-10.54.44:692][306]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.11.13-10.54.44:692][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.11.13-10.54.44:694][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.11.13-10.54.44:702][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.13-10.54.44:707][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.11.13-10.54.44:736][306]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.13-10.54.44:742][307]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.11.13-10.54.44:755][307]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
