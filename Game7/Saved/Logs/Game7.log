@@ -6587,3 +6587,73 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2023.11.14-10.20.48:366][355]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 1:24 min)
 [2023.11.14-10.20.48:381][355]AssetCheck: New page: Asset Save: NewWidgetBlueprint
 [2023.11.14-10.20.48:382][355]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MenuContent/NewWidgetBlueprint.NewWidgetBlueprint
+[2023.11.14-10.31.29:595][912]LogUObjectHash: Compacting FUObjectHashTables data took   9.12ms
+[2023.11.14-10.31.31:043][912]LogSlate: Window 'Delete Assets' being destroyed
+[2023.11.14-10.31.31:150][912]LogSlate: Window 'NewWidgetBlueprint' being destroyed
+[2023.11.14-10.31.31:234][912]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.11.14-10.31.31:235][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.14-10.31.31:259][912]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.11.14-10.31.31:259][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.14-10.31.31:275][912]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/MenuContent/NewWidgetBlueprint.NewWidgetBlueprint
+	Asset Type: WidgetBlueprint
+[2023.11.14-10.31.34:719][912]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.11.14-10.31.34:851][912]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2023.11.14-10.31.34:888][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.11.14-10.31.34:912][913]LogAutomationController: Ignoring very large delta of 5.52 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.14-10.31.37:041][985]LogShaderCompilers: Display: ================================================
+[2023.11.14-10.31.37:041][985]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.14-10.31.37:041][985]LogShaderCompilers: Display: Total job queries 122, among them cache hits 0 (0.00%)
+[2023.11.14-10.31.37:041][985]LogShaderCompilers: Display: Tracking 13 distinct input hashes that result in 3 distinct outputs (23.08%)
+[2023.11.14-10.31.37:042][985]LogShaderCompilers: Display: RAM used: 19.74 KiB of 409.60 MiB budget. Usage: 0.00%
+[2023.11.14-10.31.37:042][985]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.14-10.31.37:042][985]LogShaderCompilers: Display: Shaders Compiled: 13
+[2023.11.14-10.31.37:042][985]LogShaderCompilers: Display: Jobs assigned 17, completed 13 (76.47%)
+[2023.11.14-10.31.37:042][985]LogShaderCompilers: Display: Average time worker was idle: 2860.29 s
+[2023.11.14-10.31.37:042][985]LogShaderCompilers: Display: Time job spent in pending queue: average 1.26 s, longest 3.45 s
+[2023.11.14-10.31.37:042][985]LogShaderCompilers: Display: Job execution time: average 1.45 s, max 3.34 s
+[2023.11.14-10.31.37:042][985]LogShaderCompilers: Display: Job life time (pending + execution): average 2.82 s, max 4.17
+[2023.11.14-10.31.37:042][985]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.60 s
+[2023.11.14-10.31.37:042][985]LogShaderCompilers: Display: Jobs were issued in 17 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.14-10.31.37:042][985]LogShaderCompilers: Display: Average processing rate: 1.71 jobs/sec
+[2023.11.14-10.31.37:042][985]LogShaderCompilers: Display: Total thread time: 12.721 s
+[2023.11.14-10.31.37:042][985]LogShaderCompilers: Display: Total thread preprocess time: 0.771 s
+[2023.11.14-10.31.37:042][985]LogShaderCompilers: Display: Percentage time preprocessing: 6.06%
+[2023.11.14-10.31.37:042][985]LogShaderCompilers: Display: Effective parallelization: 1.67 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.11.14-10.31.37:043][985]LogShaderCompilers: Display: Top 3 most expensive shader types by average time:
+[2023.11.14-10.31.37:043][985]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 1.44 sec, max 1.44 sec, min 1.44 sec)
+[2023.11.14-10.31.37:043][985]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS (compiled    6 times, average 1.35 sec, max 1.57 sec, min 1.17 sec)
+[2023.11.14-10.31.37:043][985]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    6 times, average 0.53 sec, max 0.63 sec, min 0.44 sec)
+[2023.11.14-10.31.37:043][985]LogShaderCompilers: Display: Top 3 shader types by total compile time:
+[2023.11.14-10.31.37:043][985]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS - 63.49% of total time (compiled    6 times, average 1.35 sec, max 1.57 sec, min 1.17 sec)
+[2023.11.14-10.31.37:043][985]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 25.19% of total time (compiled    6 times, average 0.53 sec, max 0.63 sec, min 0.44 sec)
+[2023.11.14-10.31.37:043][985]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 11.33% of total time (compiled    1 times, average 1.44 sec, max 1.44 sec, min 1.44 sec)
+[2023.11.14-10.31.37:043][985]LogShaderCompilers: Display: ================================================
+[2023.11.14-10.32.06:982][377]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2023.11.14-10.32.07:015][377]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.11.14-10.32.07:051][377]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.11.14-10.32.07:057][378]LogAutomationController: Ignoring very large delta of 16.22 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.14-10.32.07:385][379]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.11.14-10.32.09:253][442]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> NewWidgetBlueprint
+[2023.11.14-10.32.09:287][442]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.11.14-10.32.20:196][823]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> Menu
+[2023.11.14-10.32.20:305][823]LogMetaData: Removing '/Game/MenuContent/Menu.SKEL_Menu_C' ref from Metadata '/Game/MenuContent/NewWidgetBlueprint.PackageMetaData'
+[2023.11.14-10.32.20:305][823]LogMetaData: Removing '/Game/MenuContent/Menu.Menu_C' ref from Metadata '/Game/MenuContent/NewWidgetBlueprint.PackageMetaData'
+[2023.11.14-10.32.20:305][823]LogMetaData: Removing '/Game/MenuContent/Menu.Menu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MenuContent/NewWidgetBlueprint.PackageMetaData'
+[2023.11.14-10.32.20:305][823]LogMetaData: Removing '/Game/MenuContent/Menu.Menu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/MenuContent/NewWidgetBlueprint.PackageMetaData'
+[2023.11.14-10.32.20:305][823]LogMetaData: Removing '/Game/MenuContent/Menu.Menu:EventGraph.K2Node_Event_2' ref from Metadata '/Game/MenuContent/NewWidgetBlueprint.PackageMetaData'
+[2023.11.14-10.32.20:316][823]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.14-10.32.20:385][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuContent/Menu" FILE="../../../../../../Users/rowan/Desktop/GDS212 Projects/Game7/Game7/Content/MenuContent/Menu.uasset" SILENT=true
+[2023.11.14-10.32.20:396][823]LogSavePackage: Moving output files for package: /Game/MenuContent/Menu
+[2023.11.14-10.32.20:396][823]LogSavePackage: Moving '../../../../../../Users/rowan/Desktop/GDS212 Projects/Game7/Game7/Saved/MenuC81A3BD943FDE68CB155E4957BAC4556.tmp' to '../../../../../../Users/rowan/Desktop/GDS212 Projects/Game7/Game7/Content/MenuContent/Menu.uasset'
+[2023.11.14-10.32.20:413][823]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 1:24 min)
+[2023.11.14-10.32.20:467][823]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2023.11.14-10.32.20:509][823]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.11.14-10.32.20:546][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.11.14-10.32.20:555][823]AssetCheck: New page: Asset Save: Menu
+[2023.11.14-10.32.20:555][823]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MenuContent/Menu.Menu
+[2023.11.14-10.32.27:356][938]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MenuContent/Menu.Menu
+[2023.11.14-10.32.27:356][938]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.14-10.32.27:356][938]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.14-10.32.27:379][938]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.14-10.32.27:379][938]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
